@@ -12,7 +12,7 @@
 /node_modules/** linguist-vendored
 *.lock linguist-generated
 
-# Exclude C++ and CMake files from language statistics
+# Exclude specific file types
 *.cpp linguist-generated
 *.h linguist-generated
 *.cmake linguist-generated
