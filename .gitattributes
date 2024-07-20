@@ -1,0 +1,15 @@
+# Specify Dart as the primary language
+*.dart linguist-language=Dart
+
+# Mark documentation files
+*.md linguist-documentation
+*.rst linguist-documentation
+
+# Exclude build files from language statistics
+/build/** linguist-generated
+*.lock linguist-generated
+
+# Exclude dependency files from language statistics
+/node_modules/** linguist-vendored
+/.dart_tool/** linguist-vendored
+/packages/** linguist-vendored
