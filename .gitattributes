@@ -12,9 +12,16 @@
 /node_modules/** linguist-vendored
 *.lock linguist-generated
 
-# Exclude files that contribute to the "Other" category
+# Exclude specific files and directories that may contribute to "Other"
 *.cmake linguist-generated
 *.html linguist-generated
 *.swift linguist-generated
 *.c linguist-generated
 *.cpp linguist-generated
+*.h linguist-generated
+*.java linguist-generated
+*.js linguist-generated
+*.ts linguist-generated
+*.py linguist-generated
+*.go linguist-generated
+*.rb linguist-generated
