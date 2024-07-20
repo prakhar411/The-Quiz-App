@@ -5,11 +5,16 @@
 *.md linguist-documentation
 *.rst linguist-documentation
 
-# Exclude build files from language statistics
+# Exclude generated and vendored files from language statistics
 /build/** linguist-generated
+/.dart_tool/** linguist-generated
+/packages/** linguist-vendored
+/node_modules/** linguist-vendored
 *.lock linguist-generated
 
-# Exclude dependency files from language statistics
-/node_modules/** linguist-vendored
-/.dart_tool/** linguist-vendored
-/packages/** linguist-vendored
+# Exclude files that contribute to the "Other" category
+*.cmake linguist-generated
+*.html linguist-generated
+*.swift linguist-generated
+*.c linguist-generated
+*.cpp linguist-generated
